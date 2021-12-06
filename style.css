@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    background-color:rgb(34, 34, 34);
+}
+
+#containerInput{
+    margin: auto;
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+    height: 550px;
+    width: 480px;
+    background-color: rgb(57, 135, 172);
+    gap: 10px;
+    
+    
+    
+}
+
+#quit{
+    height: 29px;
+    width: 480px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#quitBtn{
+border-radius: 0px;
+border-style: none;
+cursor: pointer;
+height: 29px;
+width: 30px;
+font-size: 15px;
+}
+#quitBtn:hover{
+    background-color:rgb(202, 40, 40) ;
+    color: white;
+    
+    }
+
+#buttonAddform{
+    margin: auto;
+    height: 80px;
+    width: 300px;
+}
+
+#buttonAddformS{
+    height: 80px;
+    width: 300px;
+    border-radius: 0px;
+    border-style: none;
+    font-size: 28px;
+    background-color:rgb(57, 135, 172) ;
+    color: white;
+    font-family: "Ubunutu", sans-serif;
+    cursor: pointer;
+}
+#buttonAddformS:hover{
+    background: rgb(71, 170, 216);
+}
+
+
+#buttonAddform{
+    margin: auto;
+ 
+}
+#buttonStatus{
+   
+    display: flex;
+    justify-content: center;
+    height: 30pxx;
+    width: 200px;
+    gap: 5px;
+ 
+}
+
+#titleVal{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#titleVal:focus{
+    outline: none;
+ 
+}
+#authorVal{
+   
+    width: 200px;;
+    height: 30px;
+    font-size: 18px;
+}
+#authorVal:focus{
+    outline: none;
+ 
+}
+#nbrPagesVal{
+  
+    width: 200px;;
+    height: 30px;
+    font-size: 18px;
+}
+#nbrPagesVal:focus{
+    outline: none;
+    
+}
+#statusValNot{
+    cursor: pointer;
+    height: 50px;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    border-style : none;
+}
+
+#statusValRead{
+    cursor: pointer;
+    height: 50px;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    border-style : none;
+}
+
+#statusValNot:focus{
+    background: grey;
+    
+    color: rgb(255, 255, 255);
+}
+
+#statusValRead:focus{
+    background: rgb(46, 177, 86);
+    color: white;
+ 
+}
+
+#statusValNot:hover{
+    background: grey;
+    color: white;
+}
+#statusValRead:hover{
+    background:rgb(46, 177, 86); 
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Ubuntu", sans-serif;
+}
+
+#displayBooks{
+    margin: auto;
+    margin-top: 20px;
+    height: 500px;
+    width: 800px;
+}
+
+p{
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+#newBookAdd{
+    cursor: pointer;
+    height: 60px;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 0px;
+    background: rgb(223, 221, 221);
+    color: rgb(27, 27, 27);
+    border-style : none;
+
+}
+
+#newBookAdd:hover{
+    background-color: rgb(252, 247, 247);
+
+
+}
+
+
+
+#titleLabel{
+    margin-top: -10px;
+}
+
+.labelClass{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+h2{
+   padding: 0px;
+   color: white;
+   font-family: "Ubuntu", sans-serif;
+   font-size: 30px;
+}
+
